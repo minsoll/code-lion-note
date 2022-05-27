@@ -29,13 +29,13 @@ div/section 차이
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>김멋사의 이력서</title>
+  <title>의 이력서</title>
   <link rel="stylesheet" href="codelion.css">
 </head>
 <body>
   <div class="mainbox">
     <div class="title-box">
-      <h1>김멋사</h1>
+      <h1>조민솔</h1>
       <p class="name-text">HTML/CSS 개발자</p>
     </div>
     <section>
