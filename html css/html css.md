@@ -25,7 +25,7 @@ div/section 차이
 
 • src : 이미지의 경로
 
-```<!DOCTYPE html>
+``` <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
