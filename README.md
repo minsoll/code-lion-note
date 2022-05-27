@@ -1,2 +1,2 @@
-# code-line-record
-# code-lion-note
+# 코드라이언 강의 기록
+
