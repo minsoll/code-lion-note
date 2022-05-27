@@ -1,0 +1,28 @@
+#main{
+    background-color: whitesmoke;
+    text-align: center;
+    width: auto;
+    border-radius: 20px; 
+    /*테두리 둥글게 */
+}
+p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.startBtn{
+    color: rgb(100, 0, 55);
+    background-color: bisque;
+    text-align: center;
+    border: 3px solid darkmagenta; 
+    /* 버튼 테두리 */
+    border-radius: 8px;
+    padding: 10px 50px; 
+    /*padding으로 버튼 크게 (세로 가로) */
+}
+
+.startBtn:hover, .startBtn:active {
+    padding: 13px 50px;
+    border: 3px solid orange;
+    color: whitesmoke;
+} 
+
