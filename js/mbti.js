@@ -1,7 +1,10 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
+const result = document.querySelector("#result");
+
 
 const endPoint = 10;
+const select = [0,0,0,0]
 
 function addAnswer(answerText,qIdx){
     var a = document.querySelector(".aBox");
@@ -27,17 +30,36 @@ function addAnswer(answerText,qIdx){
             children[i].style.animation = "fadeOut 0.5s"
         }
         setTimeout(()=>{
+
+            var target = qnaList[qIdx].a[idx].type;
+
             for(let i=0;i<children.length;i++){
                 children[i].style.display = 'none';
             }
             goNext(++qIdx);
         },450)
     },false)
+}
 
-
+function goResult(){
+    main.style.WebkitAnimation = "fadeOut 1s";
+    main.style.animation = "fadeOut 1s";
+    setTimeout(()=>{
+        result.style.WebkitAnimation = "fadeIn 1s";
+        result.style.animation = "fadeIn 1s";
+        setTimeout(() => {
+            qna.style.display = "none";
+            result.style.display = "block";            
+        }, 450);
+    },450);
 }
 
 function goNext(qIdx){
+    //질문 끝나면 결과로 이동하는 함수
+    if(qIdx == endPoint){
+        goResult();
+        return;
+    }
     var q = document.querySelector('.qBox');
     q.innerHTML = qnaList[qIdx].q;
     
@@ -64,6 +86,6 @@ function start(){
             qna.style.display = "block";            
         }, 450);
         let qIdx = 0;
-        goNext(qIdx);
+        goNext(qIdx); //다음 질문으로 넘어감
     },450);
 }
