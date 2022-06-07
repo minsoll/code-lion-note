@@ -1,0 +1,39 @@
+#wrap {
+    width: 90%;    /*전체가 차지하는 비율*/                
+    margin: 0 auto;
+    height: 500px;
+    border: 4px solid blue;
+}
+
+#wrap div {
+    display: inline-block;
+    width: 31%; /*300px/960px */
+   
+
+/* .container 
+    width: 93.75%;
+    /* wrap안에 div두개가 차지하는 900px / 960px */  
+    /* height: 492px;
+    margin:0 auto;
+    border: 40x solid #000;
+
+   */
+
+/* .container div 
+    display: inline-block; /* 요소들이한줄로 , 블록태그도 작성가능*/
+    /* height: 100%;
+ */ 
+
+                 
+    /* margin-right: 37.5%;  */
+    /* 360px / 960px */
+    /* width: 33.3%; 300px/900px */
+}
+
+.container div:nth-child(2) {
+    /* width: 66.6%; 600px /900px */
+
+
+
+    background: #2dcc70;
+}
