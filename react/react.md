@@ -13,3 +13,7 @@
 1. 하나의 요소로 감싼다.
 2. 자바스크립트 표현식의 사용
 3. 조건부 렌더링 
+  - return문 밖에서 if문 사용
+  - &&와||사용
+  - case문 
+  - 삼황연산자 ```condition ? exprIfTrue : exprIfFalse```
