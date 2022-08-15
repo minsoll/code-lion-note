@@ -20,3 +20,11 @@ indexOf() 메서드는 호출한 String 객체에서 주어진 값과 일치하�
 ## substring
 substring() 메소드는 string 객체의 시작 인덱스로 부터 종료 인덱스 전 까지 문자열의 부분 문자열을 반환합니다.
 
+## jQuery
+## jQuery  사용법
+```$('').val();```
+
+
+## jQuery event
+```$('click').click(hello);```
+
